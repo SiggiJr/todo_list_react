@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.todo_section{
+  width: 50%;
+  margin-inline: auto;
+  margin-top: 30vh;
+  h1{
+    color: white;
+    background-color: peachpuff;
+    font-size: 3rem;
+    padding: 20px;
+  }
+  ul{
+    list-style: none;
+    li{
+      background-color: aquamarine;
+      border-bottom: 1px solid gray;
+      font-size: 2rem;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      input{
+        height: 20px;
+        margin-right: 10px;
+      }
+      button{
+        width: 30px;
+      }
+    }
+  }
+
+  .todo_form{
+    display: flex;
+    align-items: center;
+
+    input{
+      font-size: 1.5rem;
+      padding: 0;
+      width: 80%;
+      height: 37px;
+    }
+    button{
+      padding: 10px;
+      background-color: aqua;
+      color: #fff;
+      font-style: 1.5rem;
+      border: 1px solid aqua;
+      width: 20%;
+    }
+  }
+}
